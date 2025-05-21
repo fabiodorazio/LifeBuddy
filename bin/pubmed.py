@@ -1,6 +1,6 @@
 from Bio import Entrez
 
-Entrez.email = "you@example.com"
+Entrez.email = "fabiomarco.dorazio@dorazio.com"
 
 def fetch_pubmed_abstracts(query: str, max_results=10):
     handle = Entrez.esearch(db="pubmed", term=query, retmax=max_results)
